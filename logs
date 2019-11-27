@@ -1,0 +1,64 @@
+snif@pwet:~/hackerspace/machineLearning/recommanderSystem$ python3.5 run.py
+number of items: 10000, number of users: 1000
+min # of items per user = 8, min # of users per item = 3.
+valid ratings shape  (9990, 999)
+train matrix  (9990, 999)
+the shape of original ratings. (# of row, # of col): (10000, 1000)
+the shape of valid ratings. (# of row, # of col): (9990, 999)
+Total number of nonzero elements in origial data:1176952
+Total number of nonzero elements in train data:1065253
+Total number of nonzero elements in test data:111620
+test RMSE of baseline using the global mean: [[1.12152228]].
+Baseline global mean None
+test RMSE of the baseline using the user mean: [[1.03317038]].
+Baseline user mean  None
+test RMSE of the baseline using the item mean: [[1.09633198]].
+Baseline item mean  None
+learn the matrix factorization using SGD...
+iter: 0, RMSE on training set: 1.1188016390962718.
+iter: 1, RMSE on training set: 1.0557733846363557.
+iter: 2, RMSE on training set: 1.0352090447321285.
+iter: 3, RMSE on training set: 1.0305003556868906.
+iter: 4, RMSE on training set: 1.0289338540768067.
+iter: 5, RMSE on training set: 1.027541155288929.
+iter: 6, RMSE on training set: 1.0267280525334728.
+iter: 7, RMSE on training set: 1.0257331157481897.
+iter: 8, RMSE on training set: 1.024212863517716.
+iter: 9, RMSE on training set: 1.0250155714728297.
+iter: 10, RMSE on training set: 1.0250110976515387.
+iter: 11, RMSE on training set: 1.0247649821945568.
+iter: 12, RMSE on training set: 1.024444922433812.
+iter: 13, RMSE on training set: 1.0243942405531554.
+iter: 14, RMSE on training set: 1.0244300096163954.
+iter: 15, RMSE on training set: 1.0244421403898756.
+iter: 16, RMSE on training set: 1.0243492826217602.
+iter: 17, RMSE on training set: 1.0241854571274716.
+iter: 18, RMSE on training set: 1.0243454281607476.
+iter: 19, RMSE on training set: 1.0243365237565685.
+RMSE on test data: 1.034557674453581.
+Matrix factorization SGD  None
+
+start the ALS algorithm...
+RMSE on training set: 2.0667903099946097.
+RMSE on training set: 1.273082342531621.
+RMSE on training set: 1.1443723965394588.
+RMSE on training set: 1.0933056134082648.
+RMSE on training set: 1.0677955454860306.
+RMSE on training set: 1.053327562896735.
+RMSE on training set: 1.0444354568715422.
+RMSE on training set: 1.0386656716080207.
+RMSE on training set: 1.0347770575802664.
+RMSE on training set: 1.0320842183596965.
+RMSE on training set: 1.030182425919621.
+RMSE on training set: 1.0288198573234755.
+RMSE on training set: 1.0278332461774837.
+RMSE on training set: 1.0271132567742438.
+RMSE on training set: 1.0265847878082368.
+RMSE on training set: 1.0261952239391887.
+RMSE on training set: 1.0259071360511793.
+RMSE on training set: 1.0256935840162404.
+RMSE on training set: 1.0255350029344754.
+RMSE on training set: 1.0254170871091244.
+RMSE on training set: 1.025329322370854.
+test RMSE after running ALS: 1.03484581037619.
+ALS  None
